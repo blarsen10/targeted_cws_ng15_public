@@ -1,7 +1,7 @@
 # targeted_cws_ng15_public
-Scripts and analysis notebooks for running targeted CW analyses with enterprise
+Scripts and analysis notebooks for running targeted CW analyses with `enterprise` and `PTMCMCSampler`
 
-If you make use of this code, please cite Agazie et al. 2025 (in prep.),
+If you make use of this code, please cite the NANOGrav 15 yr targeted continuous waves search paper Agazie et al. 2025 (in prep.)
 
 as well as the NANOGrav 12.5 year continuous waves search paper: https://iopscience.iop.org/article/10.3847/2041-8213/acdbc7
 ```
