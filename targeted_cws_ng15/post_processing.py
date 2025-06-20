@@ -254,7 +254,7 @@ def concatenate_chains_to_single_core(cs, source_name, thin_by, chaindir,
     log10_mc_scaled = log10_mc + np.log10(u.Msun.to(u.kg)*const.G/const.c**3)
     # calculate strain
     log10_h0 = (5*log10_mc_scaled/3 + 2*log10_fgw/3 - log10_dL_scaled +
-                np.log10(2*np.pi))
+                np.log10(2*np.pi**(2/3)))
     c.chain = np.vstack([c.chain[:,:-4].T,log10_h0,c.chain[:,-4:].T]).T
     #c.chain = np.vstack([c.chain.T,log10_h0]).T
     c.chain = np.vstack([c.chain[:,:-4].T,10**log10_mc,c.chain[:,-4:].T]).T
