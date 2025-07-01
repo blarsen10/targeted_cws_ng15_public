@@ -1,0 +1,1 @@
+If you make use of the galaxy target info in this directory, please double check it is correct for your analysis! In particular, in `all_targets_info.csv` some of the frequencies correspond to the *light curve* frequency, whereas some correspond to the *gravitational wave* frequency (assumed to be twice the light curve frequency), so double check this.
