@@ -1,5 +1,12 @@
 # targeted_cws_ng15_public
-Scripts and analysis notebooks for running targeted CW analyses with `enterprise` and `PTMCMCSampler`
+
+Scripts and analysis notebooks for running targeted CW analyses with `enterprise` and `PTMCMCSampler`.
+
+## Credits
+
+Caitlin A. Witt originally developed the `Enterprise` targeted-search code adaptation and methodologies with supervision from Sarah Burke-Spolaor, Stephen Taylor and Sarah Vigeland.
+
+## Cite this work
 
 If you make use of this code for your own science projects, please cite the NANOGrav 15 yr targeted continuous waves search paper Agazie et al. 2025 (in prep.)
 
